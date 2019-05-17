@@ -1,0 +1,456 @@
+.icon {
+    display: inline-flex;
+}
+
+.icon-50 {
+    height: 50px;
+    width: 50px;
+}
+
+.image-fluid {
+    width: 100%;
+    max-height: 100%;
+}
+
+.box-shadow-primary {
+    box-shadow: 0 1px 4px rgba(0,0,0,.3);
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.button {
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: all 1s ease;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    outline: none;
+    
+}
+
+.xbutton-small {
+    padding: .5rem 1.5rem;
+    font-size: .5rem;
+}
+
+.button-medium {
+    padding: .8rem 1.8rem;
+    font-size: .8rem;
+}
+
+.button-large {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    max-height: 70px;
+}
+
+.tooltip {
+    
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************************** Top-Banner *******************************************************/
+
+.banner { 
+}
+
+/************************************************************ Navbar ********************************************/
+
+.main-header {
+    position: fixed;
+    width: 100%;
+    left: auto;;
+    top: 0;
+    transition: all 1s ease;
+    z-index: 3000;
+    height: 64px;
+}
+
+.scrolled-header {
+    background: rgba(255, 255, 255, 1);
+    transition: all 1s ease;
+}
+
+.header-shadow {
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.2);
+}
+
+.navbar {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.left-nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar-logo {
+    display: block;
+    height: 45px;
+    width: 45px;
+}
+
+
+
+/************************************************************** Jumbotron **************************************************/
+
+.jumbotron {
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 74vh;
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+    ), url('../Images/jumbotron.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   position: relative;
+   padding-top: 154px;
+   padding-bottom: 70px;
+}
+
+.jumbotron--title {
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.ref-logo {
+    height: 90px;
+    width: 250px;
+    position: absolute;
+    top: 64px;
+    right: 0;
+}
+
+
+
+/******************************************************************* Menu-Button ***********************************************/
+
+.menu-button {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    height: 22px;
+    width: 22px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+    position: relative;
+}
+
+.menu-button--icon {
+    height: 12px;
+    width: 18px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-button {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    height: 24px;
+    width: 24px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+}
+
+.menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding-right: 10px;
+}
+
+
+.toggler {
+    display: none;
+}
+
+.menu-button::after {
+    color: #fff;
+    background: #5f6368;
+    content: "menu";
+    position: absolute;
+    top: 23px;
+    left: -10px;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-size: 0.825rem;
+    display: none;
+}
+
+.menu-button:hover .menu-button::after {
+    display: inline;
+}
+
+
+
+
+
+
+
+/************************************************************************************ Navigation *******************************************************************/
+
+.navigation {
+    width: 280px;
+    height: 100%;
+    position: fixed;
+    top: 64px;
+    left: auto;
+    overflow: auto;
+    z-index: 1000;
+    padding: 0;
+}
+
+.navigation-row {
+    flex-direction: column;
+    padding-bottom: 80px; 
+    width: 100%;
+    padding-left: 50px;
+}
+
+#menu-toggler:checked ~ .navigation {
+    transform: translateX(-100%);
+    border-radius: 0%;
+    opacity: 1;
+}
+
+
+
+.menu-header {
+    font-weight: 100;
+    font-size: 1.1rem;
+    margin-top: 35px;
+}
+
+.menu-link {
+    width: 100%;
+    display: flex;
+    height: 45px;
+    align-items: center;
+    font-size: 0.8125rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #6c7277;
+    position: relative;
+    padding-left: 21px;
+}
+
+/***************************************************************** Popup *****************************************/
+
+.popup {
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: fixed;
+    top: 60px;
+    right: 21px;
+    z-index: 3000;
+    padding: 21px; 
+    display: none;
+}
+
+.popup-item {
+    padding: 7px 7px;
+    margin-bottom: 14px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    width: 100%;;
+}
+
+.popup-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.popup-icon {
+    height: 55px;
+    width: 55px;
+}
+
+.popup-name {
+    padding-top: 10px;
+    width: 100%;
+    font-size: 0.8rem;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;    
+}
+
+.popup-item:hover {
+    background: #f0f0f0;
+}
+
+
+#service-toggler:checked ~ .popup {
+    display: block;
+}
+
+/************************************************************************ Main ************************************************/
+
+
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 21px; 
+}
+
+.card-thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+}
+
+.card-thumbnail-image {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+/********************************************************************************** Section *******************************************************************/
+
+.section-title {
+    font-weight: 100;
+}
+
+.section-text--large {
+    font-size: 1rem;
+}
+
+.section-text--small {
+    font-size: 0.9rem;
+}
+
+
+/******************************************************************** Footer *********************************************************************/
+
+.main-footer {
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+    .popup {
+        width: 280px;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+
+    
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    #menu-toggler:checked ~ .main {
+        padding-left: 0;
+    }
+
+    .main {
+        padding-left: 280px;
+    }
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1559px){
+    #menu-toggler:checked ~ .main {
+        padding-left: 0;
+    }
+
+    .main {
+        padding-left: 280px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 2560px) {
+    #menu-toggler:checked ~ .main {
+        padding-left: 0;
+    }
+
+    .main {
+        padding-left: 280px;
+    }
+}

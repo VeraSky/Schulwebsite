@@ -1,0 +1,1008 @@
+<main class="row-content--primary">
+        <section class="main-section center">
+            <h2 class="section-title text-orange">KätheFacts</h2>
+            <div class="row center">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="icon icon-120">
+                        <img src="images/svg/school.svg">
+                    </div>
+                    <h4>No#1</h4>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="icon icon-120">
+                        <img src="images/svg/school.svg">
+                    </div>
+                    <h4>No#2</h4>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="icon icon-120">
+                        <img src="images/svg/school.svg">
+                    </div>
+                    <h4>No#3</h4>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="icon icon-120">
+                        <img src="images/svg/school.svg">
+                    </div>
+                    <h4>No#4</h4>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="icon icon-120">
+                        <img src="images/svg/school.svg">
+                    </div>
+                    <h4>No#5</h4>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="icon icon-120">
+                            <img src="images/svg/school.svg">
+                        </div>
+                        <h4>No#5</h4>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="icon icon-120">
+                                <img src="images/svg/school.svg">
+                            </div>
+                            <h4>No#5</h4>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                                <div class="icon icon-120">
+                                    <img src="images/svg/school.svg">
+                                </div>
+                                <h4>No#5</h4>
+                            </div>
+            </div>
+        </section>
+        <section class="main-section center">
+            <h2 class="section-title text-orange">KätheNews</h2>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .navbar {
+        display: flex;
+        height: 45px;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        display: none;
+        padding: 0;
+        background: #e0e0e0;
+    }
+
+    .nav-item {
+        height: 45px;
+        width: 100%;
+    }
+
+    .nav-link {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color: #1b1b1b;
+        border-bottom: 1px solid #eee;
+    }
+
+    .nav-button {
+        width: 45px;
+    }
+
+    .dropdown-nav {
+        display: flex;
+        flex-direction: column;
+        background: Red;
+        position: absolute;
+    }
+
+    .dropdown-item {
+        background: olivedrab;
+        width: 100%;
+    }
+
+    .dropdown-link {
+        background: orangered;
+        width: 100%;
+        display: flex;
+    }
+
+
+
+
+
+
+    last v.
+
+
+    <div class="banner col-pad--primary between-xs middle-xs bg-white">
+        <h3 class="banner-title">Städtisches Käthe-Kollwitz-Gymnasium</h3>
+
+        <div class="logo banner-logo">
+            <img src="images/logos/reflogos/logo rbs deutsch/12_bildung_sport.jpg" class="logo-image">
+        </div>
+
+    </div>
+
+    <header class="main-header bg-white">
+        <nav class="navbar col-pad--primary between-xs start-md">
+            
+
+            <a class="main-logo" href="#">
+                <img src="images/logos/KKG.png" class="image-100">
+            </a>
+
+            <label for="menu-toggler">
+                <div class="nav-button" id="main-menu-button">
+                    <img src="images/svg/menu.svg" class=" image-50">
+                 </div>
+            </label>
+            <input type="checkbox" id="menu-toggler">
+            
+
+
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="Index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <label for="dropdown-toggler1" class="toggler"></label>
+                    <a class="nav-link">
+                        Über Uns
+                        <span class="icon-15"><img src="images/svg/down.svg" class="image-100"></span>
+                    </a> 
+                    <input type="checkbox" id="dropdown-toggler1" name="dropdown-toggler">
+                    <ul class="dropdown-nav">
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" href="#">Begrüssung</a>
+                            <a class="dropdown-link" href="#">Schulprofil</a>
+                            <a class="dropdown-link" href="#">Projekte</a>
+                            <a class="dropdown-link" href="#">Schulbibliothek</a>
+                            <a class="dropdown-link" href="#">Anfahrt</a>
+                            <a class="dropdown-link" href="#">Käthe Kollwitz</a>
+                            <a class="dropdown-link" href="#">Intern</a>
+                            <a class="dropdown-link" href="#">Ein Tag am KKG - Ein Film</a>
+                            <a class="dropdown-link" href="#">Nachlese Käthe Gedenkjahr</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                        <label for="dropdown-toggler2" class="toggler"></label>
+                        <a class="nav-link">
+                            Über Uns
+                            <span class="icon-15"><img src="images/svg/down.svg" class="image-100"></span>
+                        </a> 
+                        <input type="checkbox" id="dropdown-toggler2" name="dropdown-toggler">
+                        <ul class="dropdown-nav">
+                            <li class="dropdown-item">
+                                <a class="dropdown-link" href="#">Ansprechpartner</a>
+                                <a class="dropdown-link" href="#">Administration</a>
+                                <a class="dropdown-link" href="#">Beratung</a>
+                                <a class="dropdown-link" href="#">Stufenbetreuung</a>
+                                <a class="dropdown-link" href="#">QSE</a>
+                            </li>
+                        </ul>
+                    </li>
+            </ul>
+
+            
+
+                
+        </nav>
+
+        
+    </header>
+
+    <div class="jumbotron">
+        <img src="images/slide1.jpg" class="jumbotron-image">
+    </div>
+
+    <div style="height: 1000px"></div>
+
+
+    MODULE 
+
+
+    .banner {
+    display: flex; 
+    padding-top: 14px;
+    padding-bottom: 14px; 
+}
+
+.banner-title {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.ref-logo {
+    height: 90px;
+    width: 250px;
+}
+
+.main-logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+.nav-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.dropdown-nav {
+    background: #fff;
+}
+
+.dropdown-link {
+    color: #444444;
+}
+
+.icon-30 {
+    height: 30px;
+    width: 30px;
+}
+
+.icon-15 {
+    height: 15px;
+    width: 15px;
+}
+
+.image-100 {
+    width: 100%;
+    height: 100%;
+}
+.image-70 {
+    width: 70%;
+    height: 70%;
+}
+
+.image-50 {
+    width: 50%;
+    height: 50%;
+}
+
+#menu-toggler {
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+#sidebar-toggler {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    visibility: hidden;
+}
+
+.navbar {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    font-size: 0.8rem;
+    font-weight: 600;
+    -webkit-box-shadow: 0px 2px 6px -2px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 2px 6px -2px rgba(0,0,0,.3);
+    box-shadow: 0px 2px 6px -2px rgba(0,0,0,.3);
+}
+
+.nav-link {
+    color: #848484; 
+    transition: all 1s ease;
+}
+
+.jumbotron {
+    width: 100%;
+    background: #ccc;
+}
+
+.jumbotron-image {
+    width: 100%;
+}
+
+.button {
+    padding: 0 10px;
+    border: 0;
+    outline: none;
+    font: inherit;
+    color: inherit;
+    background: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+}
+
+.button-orange {
+    background: #fff;
+    border: 2px solid #ef7c00;
+    color: #ef7c00;
+    transition: all .13s ease;
+}
+
+.button-small {
+    height: 30px
+}
+
+.button-medium {
+    height: 40px;
+}
+
+.button-large {
+    height: 50px;
+}
+
+#dropdown-toggler1,#dropdown-toggler2 {
+    position: absolute;
+    top: 0;
+    left: -1000px;
+}
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .banner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .banner-logo {
+        margin: 10px 0 0 0;
+    }
+    
+    .navbar {
+        display: flex;
+        height: 45px;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        display: none;
+        padding: 0;
+        background: #fff;
+        -webkit-box-shadow: 0px 2px 6px -2px rgba(0,0,0,.3);
+        -moz-box-shadow: 0px 2px 6px -2px rgba(0,0,0,.3);
+        box-shadow: 0px 2px 6px -2px rgba(0,0,0,.3);
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+
+    .nav-link {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding: 0 21px;
+    }
+
+    .nav-button {
+        width: 45px;
+    }
+
+    .dropdown-nav {
+        padding: 0;
+        width: 100%;
+        display: none;
+        background: #fafafa;
+    }
+
+    .dropdown-item {
+        width: 100%;
+        position: relative;
+    }
+
+    .dropdown-link {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 0 35px;
+        color: #448aff;
+    }
+
+    .toggler {
+        display: block;
+        width: 100%;
+        height: 50px;
+        position: absolute;
+    }
+
+    .main-logo {
+        width: 45px;
+    }
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 767px){
+    
+    .navbar {
+        display: flex;
+        height: 45px;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        display: none;
+        padding: 0;
+        background: #fff;
+        -webkit-box-shadow: 0px 2px 6px -2px rgba(0,0,0,.3);
+        -moz-box-shadow: 0px 2px 6px -2px rgba(0,0,0,.3);
+        box-shadow: 0px 2px 6px -2px rgba(0,0,0,.3);
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+
+    .nav-link {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 28px;
+        cursor: pointer;
+        }
+
+    .nav-button {
+        width: 45px;
+    }
+
+    .dropdown-nav {
+        padding: 0;
+        width: 100%;
+        display: none;
+        background: #fafafa;
+    }
+
+    .dropdown-item {
+        width: 100%;
+    }
+
+    .dropdown-link {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 0 35px;
+        color: #448aff;
+    }
+
+    .toggler {
+        display: block;
+        width: 100%;
+        height: 50px;
+        position: absolute;
+    }
+
+    .main-logo {
+        width: 45px;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        display: flex;
+        height: 45px;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        display: none;
+        padding: 0;
+        background: #fff;
+        -webkit-box-shadow: 0px 2px 6px -2px rgba(0,0,0,.3);
+        -moz-box-shadow: 0px 2px 6px -2px rgba(0,0,0,.3);
+        box-shadow: 0px 2px 6px -2px rgba(0,0,0,.3);
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+
+    .nav-link {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 28px;
+        cursor: pointer;
+    }
+
+    .nav-button {
+        width: 45px;
+    }
+
+    .dropdown-nav {
+        width: 100%;
+        background: #fafafa;
+        display: none;
+        padding: 0 35px;
+    }
+
+    .dropdown-item {
+        width: 100%;
+    }
+
+    .dropdown-link {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        color: #448aff;
+    }
+
+    .toggler {
+        display: block;
+        width: 100%;
+        height: 50px;
+        position: absolute;
+    }
+
+    .main-logo {
+        width: 45px;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .navbar-nav {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        
+    }
+    
+    .nav-item {
+        margin: 0 20px;
+        height: 100%;
+    }
+    
+    .nav-link {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+        padding: 0 5px; 
+    }
+
+    
+    
+    .dropdown-nav {
+        padding: 0;
+        margin: 0;
+        min-width: 200px;
+        position: absolute;
+        display: none;
+        top: 45px;
+        background: #fafafa;
+        font-size: 0.9rem;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        box-shadow: 0 1px 4px rgba(0,0,0,.3);
+        overflow: hidden;
+    }
+    
+    .dropdown-nav::before {
+        content: "";
+        background: #ffcc00;;
+        height: 2px;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    
+    .dropdown-item {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .dropdown-link {
+        max-width: 200px;
+        padding: 10px 10px;
+        word-break: break-word;
+        cursor: pointer;
+    }
+
+    #menu-toggler {
+        display: none;
+    }
+
+    #main-menu-button {
+        display: none;
+    }
+
+    .main-logo {
+        width: 45px;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { 
+    .navbar-nav {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        height: 50px;
+    }
+    
+    .nav-item {
+        margin: 0 20px;
+        height: 100%;
+    }
+    
+    .nav-link {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+        padding: 0 5px; 
+    }
+
+    
+    
+    .dropdown-nav {
+        padding: 0;
+        margin: 0;
+        min-width: 200px;
+        position: absolute;
+        display: none;
+        top: 50px;
+        background: #fafafa;
+        font-size: 0.9rem;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        box-shadow: 0 1px 4px rgba(0,0,0,.3);
+        overflow: hidden;
+    }
+    
+    .dropdown-nav::before {
+        content: "";
+        background: #ffcc00;;
+        height: 2px;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    
+    .dropdown-item {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .dropdown-link {
+        max-width: 200px;
+        padding: 10px 10px;
+        word-break: break-word;
+        cursor: pointer;
+    }
+
+    #menu-toggler {
+        display: none;
+    }
+
+    #main-menu-button {
+        display: none;
+    }
+
+    .main-logo {
+        width: 50px;
+    }
+}
+
+
+STATE 
+
+.button-orange:hover {
+    background: #ef7c00;
+    color: #fff;
+    transition: all .13s ease;
+}
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #menu-toggler:checked ~ .navbar-nav {
+        display: block;
+    }
+    
+    #dropdown-toggler1:checked ~ .dropdown-nav {
+        display: block;
+    }
+    
+    #dropdown-toggler2:checked ~ .dropdown-nav {
+        display: block;
+    }
+    
+    #dropdown-toggler3:checked ~ .dropdown-nav {
+        display: block;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    
+    #menu-toggler:checked ~ .navbar-nav {
+        display: block;
+    }
+    
+    #dropdown-toggler1:checked ~ .dropdown-nav {
+        display: block;
+    }
+    
+    #dropdown-toggler2:checked ~ .dropdown-nav {
+        display: block;
+    }
+    
+    #dropdown-toggler3:checked ~ .dropdown-nav {
+        display: block;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #menu-toggler:checked ~ .navbar-nav {
+        display: block;
+    }
+    
+ 
+    #dropdown-toggler1:checked ~ .dropdown-nav {
+        display: block;
+    }
+    
+    #dropdown-toggler2:checked ~ .dropdown-nav {
+        display: block;
+    }
+    
+    #dropdown-toggler3:checked ~ .dropdown-nav {
+        display: block;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .nav-link:hover ~ .dropdown-nav {
+        display: block;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {   
+    .nav-link:hover ~ .dropdown-nav, .dropdown-nav:hover {
+        display: block;
+    }
+
+    .nav-link:hover {
+        color: #44a8ff;
+        transition: all .175s ease; 
+    }
+
+    .dropdown-link:hover {
+        background: #c7c7c7;
+        color:#000;
+        transition: all 0.3s ease;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="menu">
+                            <div class="row row-content--primary menu-row">
+    
+                               <div class="column">
+                                  <div class="menu-item">Über Uns</div>
+                                  <div class="menu-item-sub">
+                                      <a href="#" class="menu-item-sub-link">Begrüssung</a> |
+                                      <a href="#" class="menu-item-sub-link">Schulprofil</a> |
+                                      <a href="#" class="menu-item-sub-link">Projekte</a> |
+                                      <a href="#" class="menu-item-sub-link">Bibliothek</a> |
+                                      <a href="#" class="menu-item-sub-link">Anfahrt</a> |
+                                      <a href="#" class="menu-item-sub-link">Käthe Kollwitz</a> |
+                                      <a href="#" class="menu-item-sub-link">Intern</a> |
+                                      <a href="#" class="menu-item-sub-link">Ein Tag am KKG - Ein Film</a> |
+                                      <a href="#" class="menu-item-sub-link">Nachlese Käthe Gedenkjahr</a> 
+                                 </div>
+                 <div class="" style=" margin-top: 30px; ">
+                                    <div class="menu-item">Unterricht</div>
+                                    <div class="menu-item-sub">
+                                        <a href="#" class="menu-item-sub-link">Fachschaft</a> |
+                                        <a href="#" class="menu-item-sub-link">Unterstufe</a> |
+                                        <a href="#" class="menu-item-sub-link">Mittelstufe</a> |
+                                        <a href="#" class="menu-item-sub-link">Oberstufe</a> |
+                                        <a href="#" class="menu-item-sub-link">Ganztagesangebot</a> |
+                                        <a href="#" class="menu-item-sub-link">Wahlunterricht</a> |
+                                        <a href="#" class="menu-item-sub-link">Wettbewerbe</a> |
+                                        <a href="#" class="menu-item-sub-link">Schule als Staat</a> 
+                                   </div>
+                                 </div>
+                               </div>
+                               <div class="column">
+                                     <div class="menu-item">Ansprechpartner</div>
+                                     <div class="menu-item-sub">
+                                         <a href="#" class="menu-item-sub-link">Lehrersprechzeiten</a> |
+                                         <a href="#" class="menu-item-sub-link">Administration</a> |
+                                         <a href="#" class="menu-item-sub-link">Beratung</a> |
+                                         <a href="#" class="menu-item-sub-link">Stufenbetreuung</a> |
+                                         <a href="#" class="menu-item-sub-link">QSE</a> |
+                                         <a href="#" class="menu-item-sub-link">SMV</a> |
+                                         <a href="#" class="menu-item-sub-link">Elternbeirat</a> |
+                                         <a href="#" class="menu-item-sub-link">Freundeskreis</a> 
+                                     </div>
+                 
+                 <div class="column" style=" margin-top: 30px;">
+                                       <div class="menu-item">Service</div>
+                                       <div class="menu-item-sub">
+                                           <a href="#" class="menu-item-sub-link">Kalender</a> |
+                                           <a href="#" class="menu-item-sub-link">Vertretungsplan</a> |
+                                           <a href="#" class="menu-item-sub-link">Schreiben</a> |
+                                           <a href="#" class="menu-item-sub-link">Formulare</a> |
+                                           <a href="#" class="menu-item-sub-link">Dokumente</a> |
+                                           <a href="#" class="menu-item-sub-link">Mensakarte</a> |
+                                           <a href="#" class="menu-item-sub-link">Bibliothekskatalog</a> |
+                                           <a href="#" class="menu-item-sub-link">Essensbestellung</a> |
+                                           <a href="#" class="menu-item-sub-link">Nützliche Links</a> 
+                                       </div>
+                                    </div>
+                 
+                                  </div>
+                            </div>
+                            
+                    </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            .menu {
+    display: block;
+    margin: 216px 29px 0 28px;
+    font-size: 4rem;
+    letter-spacing: -4px;
+}
+
+.menu-item {
+    text-decoration: underline;
+}
+
+.menu-item-sub { font-size: 33px; letter-spacing: -2px; } 
+
+.menu-item-sub-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.row { 
+    display: flex; 
+    width: 100%; 
+    margin: 0 auto;
+}
+
+.column { 
+    flex: 1;
+    padding: 20px; 
+}

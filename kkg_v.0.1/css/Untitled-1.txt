@@ -1,0 +1,130 @@
+<main class="row-content--primary">
+        <section class="main-section center">
+            <h2 class="section-title text-orange">KätheFacts</h2>
+            <div class="row center">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="icon icon-120">
+                        <img src="images/svg/school.svg">
+                    </div>
+                    <h4>No#1</h4>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="icon icon-120">
+                        <img src="images/svg/school.svg">
+                    </div>
+                    <h4>No#2</h4>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="icon icon-120">
+                        <img src="images/svg/school.svg">
+                    </div>
+                    <h4>No#3</h4>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="icon icon-120">
+                        <img src="images/svg/school.svg">
+                    </div>
+                    <h4>No#4</h4>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="icon icon-120">
+                        <img src="images/svg/school.svg">
+                    </div>
+                    <h4>No#5</h4>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="icon icon-120">
+                            <img src="images/svg/school.svg">
+                        </div>
+                        <h4>No#5</h4>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                            <div class="icon icon-120">
+                                <img src="images/svg/school.svg">
+                            </div>
+                            <h4>No#5</h4>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                                <div class="icon icon-120">
+                                    <img src="images/svg/school.svg">
+                                </div>
+                                <h4>No#5</h4>
+                            </div>
+            </div>
+        </section>
+        <section class="main-section center">
+            <h2 class="section-title text-orange">KätheNews</h2>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .navbar {
+        display: flex;
+        height: 45px;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        display: none;
+        padding: 0;
+        background: #e0e0e0;
+    }
+
+    .nav-item {
+        height: 45px;
+        width: 100%;
+    }
+
+    .nav-link {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color: #1b1b1b;
+        border-bottom: 1px solid #eee;
+    }
+
+    .nav-button {
+        width: 45px;
+    }
+
+    .dropdown-nav {
+        display: flex;
+        flex-direction: column;
+        background: Red;
+        position: absolute;
+    }
+
+    .dropdown-item {
+        background: olivedrab;
+        width: 100%;
+    }
+
+    .dropdown-link {
+        background: orangered;
+        width: 100%;
+        display: flex;
+    }

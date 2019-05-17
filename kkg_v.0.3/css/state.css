@@ -1,0 +1,71 @@
+
+
+.menu-button:hover .menu-button--highlight {
+    border-radius: 0;
+    transform: scale(1);
+    transition: all 1s ease;
+}
+
+.menu-button:hover {
+    border-color: #0069ed; 
+}
+
+.menu-button:focus .menu-button--highlight {
+    border-radius: 0;
+    transform: scale(1);
+    transition: all 1s ease;
+}
+
+.menu-button:focus {
+    border-color: #0069ed; 
+}
+
+@keyframes button-bobble-effect {
+    5.6% {
+        transform: translateY(-3px);
+    }
+
+    11.2% {
+        transform: translateY(3px);
+    }
+
+    16.8% {
+        transform: translateY(-2px);
+    }
+
+    22.4% {
+        transform: translateY(2px);
+    }
+    28% {
+        transform: translate(0px);
+    }
+}
+
+.button:hover, .button:focus {
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+    transition: all 1s ease;
+}
+
+.button-large:hover {
+    transform: scale(1.1);
+}
+
+.menu-button:hover .menu-button--icon-stroke:nth-child(1) {
+    width: 21px;
+    transition: all .35s ease;
+}
+
+.menu-button:hover .menu-button--icon-stroke:nth-child(2) {
+    width: 14px;
+    transition: all .35s ease;
+}
+
+.menu-button:hover .menu-button--icon-stroke:nth-child(3) {
+    width: 17px;
+    transition: all .35s ease;
+}
+
+.menu-link:hover::before {
+    width: 100%;
+    transition: all 1s ease;
+}

@@ -1,0 +1,94 @@
+.button-orange:hover {
+    background: #ef7c00;
+    color: #fff;
+    transition: all .13s ease;
+}
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #menu-toggler:checked ~ .navbar-nav {
+        display: block;
+    }
+    
+    #dropdown-toggler1:checked ~ .dropdown-nav {
+        display: block;
+    }
+    
+    #dropdown-toggler2:checked ~ .dropdown-nav {
+        display: block;
+    }
+    
+    #dropdown-toggler3:checked ~ .dropdown-nav {
+        display: block;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    
+    #menu-toggler:checked ~ .navbar-nav {
+        display: block;
+    }
+    
+    #dropdown-toggler1:checked ~ .dropdown-nav {
+        display: block;
+    }
+    
+    #dropdown-toggler2:checked ~ .dropdown-nav {
+        display: block;
+    }
+    
+    #dropdown-toggler3:checked ~ .dropdown-nav {
+        display: block;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #menu-toggler:checked ~ .navbar-nav {
+        display: block;
+    }
+    
+    #dropdown-toggler1:checked ~ .dropdown-nav {
+        display: block;
+    }
+    
+    #dropdown-toggler2:checked ~ .dropdown-nav {
+        display: block;
+    }
+    
+    #dropdown-toggler3:checked ~ .dropdown-nav {
+        display: block;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .nav-link:hover ~ .dropdown-nav {
+        display: block;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {   
+    .nav-link:hover ~ .dropdown-nav, .dropdown-nav:hover {
+        display: block;
+    }
+
+    .nav-link:hover {
+        
+    }
+
+    .dropdown-link:hover {
+        background: #c7c7c7;
+        color:#000;
+        transition: all 0.3s ease;
+    }
+}
