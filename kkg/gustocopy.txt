@@ -1,0 +1,303 @@
+
+.menu-button:hover .line {
+    background: #fff;
+    transition: all .14s ease;
+}
+
+.menu-button:hover .radial-highlight {
+    height: 70px;
+    width: 70px;
+    transition: all .38s ease;
+}
+
+#menu-toggler:checked ~ .navigation {
+    border-radius: 0%;
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.menu-item:hover {
+    color: lavender;
+}
+
+
+
+
+
+
+
+
+
+
+
+.top-banner {
+    align-items: center;
+    display: flex;
+    height: 130px;
+    width: 100%;
+    background: #ffc420;
+}
+
+.top-banner-logo {
+    height: 90px;
+    width: 250px;
+} 
+
+.navbar {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 21px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+
+.image-responsive {
+    height: 100%;
+    width: 100%;
+}
+
+.image-responsive-50 {
+    height: 50%;
+    width: 50%;
+}
+
+.navbar-logo {
+    height: 70px;
+    width: 70px;
+}
+
+.menu-button {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    overflow: hidden;
+    transition: all .14s ease;
+    width: 70px;
+    z-index: 1000;
+}
+
+.radial-highlight {
+    background: #ffc420;
+    border-radius: 50%;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    transition: all .38s ease;
+}
+
+#menu-toggler {
+    
+    position: absolute;
+    left: 10px;
+}
+
+.menu-button-conatainer {
+    
+    height: 52px;
+    width: 52px;
+    position: relative;
+}
+
+.line {
+    border-radius: 2px;
+    position: absolute; 
+    height: 4px; width: 45px; 
+    background: #000;
+    display: block; 
+    left: 3px;
+    transition: all .13s ease;
+}
+
+.line:nth-child(1) {top: 12px;}
+.line:nth-child(2) {top: 24px;}
+.line:nth-child(3) {top: 36px;}
+
+.jumbotron {
+    height: 85vh;
+    width: 100%;
+    position: relative;
+}
+
+.navigation {
+    border-radius: 50%;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(100%, -100%);
+    transition: all .45s ease;
+    opacity: 0.5;
+    color: #fff;
+    height: 100vh;
+    z-index: 500;
+    xoverflow-y: scroll;
+}
+
+
+.row-menu {
+    display: flex;
+    padding: 0 20px;
+    max-width: 920px;
+    width: 100%;
+    margin: 108px auto;
+    padding-left: 80%;
+}
+
+.col-menu {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.menu-link-big {
+    font-size: 4rem;
+    letter-spacing: -5px;
+    color: #fff;
+    margin: 21px 0;
+}
+
+.menu-link-small {
+    font-size: 1.5rem;
+    margin: 0px 0 56px 0;
+}
+
+.menu-item {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.overlay {
+    background: #000;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%
+}
+
+
+<input type="checkbox" id="menu-toggler">
+    <header class="navbar">
+
+        <label for="menu-toggler">
+            <div class="menu-button">
+                <div class="radial-highlight"></div>
+                    <div class="menu-button-conatainer">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+            </div>
+        </label>
+
+        </div>
+    </header>
+
+    
+
+    
+    <div class="navigation bg-primary">
+
+        <div class="logo-container">
+            <a href="Index.html"><img src="images/kkg!.png" class="image-responsive"></a>
+        </div>
+
+        <div class="row-menu">
+            <div class="col-menu">
+                <div class="menu-link-big">Über Uns</div>
+                <div class="menu-link-small">
+                        <a href="#" class="menu-item">Begrüssung</a> |
+                        <a href="#" class="menu-item">Schulprofil</a> |
+                        <a href="#" class="menu-item">Projekte</a> |
+                        <a href="#" class="menu-item">Bibliothek</a> |
+                        <a href="#" class="menu-item">Anfahrt</a> |
+                        <a href="#" class="menu-item">Käthe Kollwitz</a> |
+                        <a href="#" class="menu-item">Intern</a> |
+                        <a href="#" class="menu-item">Ein Tag am KKG - Ein Film</a> |
+                        <a href="#" class="menu-item">Nachlese Käthe Gedenkjahr</a> 
+                </div>
+
+                <div class="menu-link-big">Über Uns</div>
+                <div class="menu-link-small">
+                        <a href="#" class="menu-item">Begrüssung</a> |
+                        <a href="#" class="menu-item">Schulprofil</a> |
+                        <a href="#" class="menu-item">Projekte</a> |
+                        <a href="#" class="menu-item">Bibliothek</a> |
+                        <a href="#" class="menu-item">Anfahrt</a> |
+                        <a href="#" class="menu-item">Käthe Kollwitz</a> |
+                        <a href="#" class="menu-item">Intern</a> |
+                        <a href="#" class="menu-item">Ein Tag am KKG - Ein Film</a> |
+                        <a href="#" class="menu-item">Nachlese Käthe Gedenkjahr</a> 
+                </div>
+            </div>
+            <div class="col-menu">
+                    <div class="menu-link-big">Ansprechpartner</div>
+                    <div class="menu-link-small">
+                            <a href="#" class="menu-item">Begrüssung</a> |
+                            <a href="#" class="menu-item">Schulprofil</a> |
+                            <a href="#" class="menu-item">Projekte</a> |
+                            <a href="#" class="menu-item">Bibliothek</a> |
+                            <a href="#" class="menu-item">Anfahrt</a> |
+                            <a href="#" class="menu-item">Käthe Kollwitz</a> |
+                            <a href="#" class="menu-item">Intern</a> |
+                            <a href="#" class="menu-item">Ein Tag am KKG - Ein Film</a> |
+                            <a href="#" class="menu-item">Nachlese Käthe Gedenkjahr</a> 
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="jumbotron">
+        <div class="overlay"></div>
+        <img src="images/jumb.jpg" class="image-responsive">
+    </div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

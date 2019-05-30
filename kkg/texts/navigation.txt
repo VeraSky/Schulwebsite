@@ -1,0 +1,77 @@
+<header class="sticky">
+        <nav class="navbar right bg-light fixed-sm">
+
+            <label for="menu-toggle">
+                <div class="menu-button">
+                    <img class="menu-icon" src="images/menu.svg"/>
+                </div>
+            </label>
+
+            <input type="checkbox" class="menu-toggle" id="menu-toggle"/>
+
+            <ul class="navbar-nav bg-white-sm">
+                <li class="nav-item"><a class="nav-link color-darkgrey" href="#">Home</a></li>
+                <li class="nav-item">
+                    <label for="#dropdown-toggler" class="dropdown-toggle-label"></label>
+                    <a class="nav-link color-darkgrey nav-link-dropdown" href="#">Über Uns</a>
+                    <input type="checkbox" class="dropdown-toggle" id="dropdown-toggler"/>
+                    <div class="dropdown">
+                        <ul class="dropdown-nav bg-light">
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Begrüssung</a>
+                            </li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Schulprofil</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Projekte</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Anfahrt</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Käthe Kollwitz</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Intern</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Ein Tag am KKG - Ein Film</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Nachlese Käthe Gedenkjahr</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link color-darkgrey nav-link-dropdown" href="#">Ansprechpartner</a>
+                    <div class="dropdown">
+                        <ul class="dropdown-nav bg-light">
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Lehrersprechzeiten</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Administration</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Beratung</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Stufenbetreuung</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">QSE</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">SMV</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Elternbeirat</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Freundeskreis</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link color-darkgrey nav-link-dropdown" href="#">Unterricht</a>
+                    <div class="dropdown dropdown-right">
+                        <ul class="dropdown-nav bg-light">
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Fachschaften</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Unterstufe</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Mittelstufe</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Oberstufe</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Ganztagsangebot</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Wahlunterricht</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Wettbewerbe</a></li>
+                            <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Schule als Staat</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link color-darkgrey nav-link-dropdown" href="#">Service</a>
+                    <div class="dropdown dropdown-last">
+                            <ul class="dropdown-nav bg-light">
+                                <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Kalender</a></li>
+                                <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Vertretungsplan</a></li>
+                                <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Schreiben</a></li>
+                                <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Formulare</a></li>
+                                <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Dokumente</a></li>
+                                <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Mensakarte</a></li>
+                                <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Bibliothekskatalog</a></li>
+                                <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Essensbestellung</a></li>
+                                <li class="dropdown-item"><a class="dropdown-link color-dark" href="#">Nützliche Links</a></li>
+                            </ul>
+                        </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
