@@ -8,8 +8,8 @@
 }
 
 .image-fluid {
-    width: 100%;
-    max-height: 100%;
+    max-width: 100%;
+  height: auto;
 }
 
 .box-shadow-primary {
@@ -58,6 +58,8 @@
     font-size: 1rem;
     max-height: 70px;
 }
+
+
 
   
 
@@ -118,56 +120,6 @@
     margin-left: 7px;
 }
 
-
-/************************************************************** Jumbotron **************************************************/
-
-.jumbotron {
-    box-sizing: border-box;
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
-    margin-top: 21px;
-}
-
-.slider {
-    width: 300%;
-    height: auto;
-    background: #9ccc65;
-    display: flex;
-    position: absolute;
-    animation: slider-animation 33s ease 0s infinite normal forwards;
-}
-
-@keyframes slider-animation {
-    33% {
-        margin-left: -100%;
-    }
-
-    66% {
-        margin-left: -200%;
-    }
-}
-  
-.slide {
-    height: auto;
-    width: 100%;
-}
-
-.jumbotron--title {
-    font-size: 2.5rem;
-    font-weight: 100;
-}
-
-.ref-logo {
-    height: 90px;
-    width: 250px;
-    position: absolute;
-    top: 64px;
-    right: 0;
-}
 
 
 
@@ -253,6 +205,7 @@
     z-index: 1000;
     padding: 0;
     transition: all 1s ease;
+    transform: translatex(-100%);
 }
 
 .navigation-row {
@@ -277,16 +230,17 @@
 }
 
 .menu-link {
-    width: 100%;
+    color: #6c7277;
+    width: 84%;
     display: flex;
-    height: 45px;
+    height: 40px;
     align-items: center;
     font-size: 0.8125rem;
     font-weight: bold;
     text-decoration: none;
-    color: #6c7277;
     position: relative;
     padding-left: 21px;
+    border-radius: 4px;
 }
 
 /***************************************************************** Popup *****************************************/
@@ -341,47 +295,7 @@
     display: flex;
 }
 
-/************************************************************************ Main ************************************************/
 
-.main {
-    padding-top: 64px;
-    padding-bottom: 21px;
-    transition: all 1s ease;
-}
-
-
-
-/********************************************************************************** Section *******************************************************************/
-
-.section {
-    
-}
-
-.section-title {
-    font-weight: 100;
-}
-
-.section-text--large {
-    font-size: 1rem;
-}
-
-.section-text--small {
-    font-size: 0.9rem;
-}
-
-
-
-.card {
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    width: 100%;
-    padding: 14px;
-    margin-bottom: 14px;
-}
-
-.card-title {
-    margin-top: 0;
-}
 
 
 
@@ -407,104 +321,199 @@
     text-decoration: none;
 }
 
+/***************************************************** Main *********************************************/
+
+.primary-main {
+    padding-top: 64px;
+    transition: all 1s ease;
+}
+
+.jumbotron {
+    max-height: 60vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 21px 0;
+    position: relative;
+}
+
+.jumbotron-overlay {
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.jumbotron-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+}
+
+.jumbotron-title {
+    font-weight: 100;
+    letter-spacing: 0;
+    font-size: 1.3rem;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+.section {
     
-    .popup {
-        right: 10px;
-    }
-} 
+}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) and (max-width: 768px) {
+.section-title {
+    font-weight: 100;
+    font-size: 1.4rem;
+    padding: 0 0;
+}
+
+.section-text {
+    font-size: 0.95rem;
+    color: #4d4d4d;
+}
+
+
+
+.card {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 14px;
+    box-sizing: border-box;
+    margin: 0 0 28px 0;
+}
+
+.card-title {
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+
+
+
+.card-text {
+    color: #4d4d4d;
+    font-weight: 100;
+}
+
+.card-readmore {
+    color: #fbbc05;
+    padding: 2px;
+    box-sizing: border-box;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/** CSS für alle **/
+@media only screen and (max-width: 599px) {
+
+    .xs-none {
+        display: none;
+    }
     
-} 
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px){
-    
-
-    
-} 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-    .main {
-        padding-left: 280px;
-    }
-
-    .footer {
-        padding-left: 280px; 
-    }
-    
-    #menu-toggler:checked ~ .main {
-        padding-left: 0;
-        transition: all 1s ease;
-    }
-
-    #menu-toggler:checked ~ .footer {
-        padding-left: 0;
-        transition: all 1s ease;
-    }
-    
-
-  
-
-
-
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) and (max-width: 1559px){
-    .main {
-        padding-left: 280px;
-    }
-
-    .footer {
-        padding-left: 280px; 
-    }
-    
-    #menu-toggler:checked ~ .main {
-        padding-left: 0;
-        transition: all 1s ease;
-    }
-
-    #menu-toggler:checked ~ .footer {
-        padding-left: 0;
-        transition: all 1s ease;
+    #menu-toggler:checked ~ .navigation {
+        transform: translateX(0);
+        border-radius: 0%;
+        opacity: 1;
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 2560px) {
-    .main {
+@media only screen and (min-width: 600px ) and (max-width: 979px) {
+    
+    #menu-toggler:checked ~ .navigation {
+        transform: translateX(0);
+    }
+
+    .jumbotron-title {
+        font-weight: 100;
+        letter-spacing: -1px;
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 980px ) and (max-width: 1259px) {
+    .navigation {
+        transform: translateX(0);
+    }
+    
+    #menu-toggler:checked ~ .navigation {
+        transform: translateX(-100%);
+    }
+
+    .primary-main {
         padding-left: 280px;
     }
 
-    .footer {
-        padding-left: 280px; 
-    }
-    
-    #menu-toggler:checked ~ .main {
+    #menu-toggler:checked ~ .primary-main {
         padding-left: 0;
         transition: all 1s ease;
+    }
+
+    .footer {
+        padding-left: 280px;
     }
 
     #menu-toggler:checked ~ .footer {
         padding-left: 0;
         transition: all 1s ease;
     }
+
+    .jumbotron-title {
+        font-weight: 100;
+        letter-spacing: -2px;
+        font-size: 2.7rem;
+    }
 }
+
+@media only screen and (min-width: 1260px ) {
+    .navigation {
+        transform: translateX(0);
+    }
+
+	#menu-toggler:checked ~ .navigation {
+        transform: translateX(-100%);
+    }
+
+    .primary-main {
+        padding-left: 280px;
+    }
+
+    #menu-toggler:checked ~ .primary-main {
+        padding-left: 0;
+        transition: all 1s ease;
+    }
+
+    .footer {
+        padding-left: 280px;
+    }
+
+    #menu-toggler:checked ~ .footer {
+        padding-left: 0;
+        transition: all 1s ease;
+    }
+
+    .jumbotron-title {
+        font-weight: 100;
+        letter-spacing: -3px;
+        font-size: 3rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
