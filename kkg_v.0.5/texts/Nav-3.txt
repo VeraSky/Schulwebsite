@@ -1,0 +1,20 @@
+<ul class="navbar-nav bg-white">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item">
+                    <a class="nav-link"  href="#">About ￬</a>
+                    <ul class="dropdown-nav">
+                        <li class="dropdown-nav-item"><a class="dropdown-nav-link" href="#">Who We Are</a></li>
+                        <li class="dropdown-nav-item"><a class="dropdown-nav-link" href="#">What We Do</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  href="#">Portfolio ￬</a>
+                    <ul class="dropdown-nav">
+                        <li class="dropdown-nav-item"><a class="dropdown-nav-link" href="#">Photography</a></li>
+                        <li class="dropdown-nav-item"><a class="dropdown-nav-link" href="#">Web & User Interface Design</a></li>
+                        <li class="dropdown-nav-item"><a class="dropdown-nav-link" href="#">Illustration</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link"  href="#">News</a></li>
+                <li class="nav-item"><a class="nav-link"  href="#">Contact</a></li>
+            </ul>
